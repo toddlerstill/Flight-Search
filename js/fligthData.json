@@ -1,0 +1,97 @@
+{
+"FlightData":[
+  {
+   "Code": "AI-201",
+   "From": "Chennai",
+   "To":   "Pune",
+   "Depart": "10 AM",
+   "Arrive": "3 PM",
+   "Price": "5,500",
+   "Date": "22-05-2019"
+ },
+  {
+   "Code": "AI-202",
+   "From": "Chennai",
+   "To":   "Hyderabad",
+   "Depart": "10:30 AM",
+   "Arrive": "2 PM",
+   "Price": "3,500",
+   "Date": "20-05-2019"
+ },
+  {
+   "Code": "AI-203",
+   "From": "Hyderabad",
+   "To":   "Mumbai",
+   "Depart": "12:30 PM",
+   "Arrive": "5 PM",
+   "Price": "6,500",
+   "Date": "21-05-2019"
+ },
+  {
+   "Code": "AI-204",
+   "From": "Dubai",
+   "To":   "Madurai",
+   "Depart": "6:30 AM",
+   "Arrive": "3 PM",
+   "Price": "17,500",
+   "Date": "20-05-2019"
+ },
+  {
+   "Code": "AI-204",
+   "From": "United States",
+   "To":   "Delhi",
+   "Depart": "2:30 AM",
+   "Arrive": "1 PM",
+   "Price": "17,500",
+   "Date": "18-05-2019"
+ },
+  {
+   "Code": "AI-205",
+   "From": "United States",
+   "To":   "Delhi",
+   "Depart": "9:30 AM",
+   "Arrive": "8 PM",
+   "Price": "17,500",
+   "Date": "18-05-2019"
+ },
+   {
+   "Code": "AI-208",
+   "From": "Delhi",
+   "To":   "United States",
+   "Depart": "7:00 AM",
+   "Arrive": "8:00 PM",
+   "Price": "17,500",
+   "Date": "15-05-2019"
+   
+ },
+   {
+   "Code": "EM-208",
+   "From": "United States",
+   "To":   "Delhi",
+   "Depart": "7:00 AM",
+   "Arrive": "8:00 PM",
+   "Price": "25,500",
+   "Date": "15-05-2019"
+ },
+   {
+   "Code": "EK-210",
+   "From": "Copenhagen",
+   "To":   "Dubai",
+   "Depart": "8:00 AM",
+   "Arrive": "5:00 PM",
+   "Price": "17,500",
+   "Date": "16-05-2019"
+ },
+ 
+   {
+   "Code": "ADC-210",
+   "From": "Doha",
+   "To":   "Chicago",
+   "Depart": "8:00 AM",
+   "Arrive": "5:00 PM",
+   "Price": "17,500",
+   "Date": "16-05-2019"
+ }
+ 
+]
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<script>
+
+</script>
+</head>
+<body>
+<div class="FlightSearch">
+
+	<div class="SearchBar">
+		
+		<div class="TabSection">
+			<div class="TabData">
+			<ul id="tabs">
+				<li class="active"><a>One-Way</a></li>
+				<li><a>Round Trip</a></li>
+			</ul>
+			</div>
+			<div class="container">
+				
+				<form id="FlightForm">
+					
+					<input type="text" id="Origin" autocomplete="off" placeholder="From" list="OriginValue" />
+					   <datalist id="OriginValue">
+							
+ 
+						</datalist>
+					<input type="text" id="Destination" autocomplete="off" placeholder="Destination" list="DestinationValue" />
+					
+					<datalist id="DestinationValue">
+							
+ 
+						</datalist>
+					
+					<input class="datepick" type="text" id="departure-date" placeholder="Departure" />
+					<input class="datepick" type="text" id="return-date" autocomplete="off" placeholder="Return" />
+					<div class="passengers">
+						<div class="PassengerType">
+							<div class="Adult">
+							<span class="Inc">+</span><input maxlength="1" type="text" value="1" /><span class="Dec">-</span>
+							</div>
+							
+							<div class="Children">
+								<span class="Inc">+</span><input maxlength="1" type="text" value="0" /><span class="Dec">-</span>
+							</div>
+						</div>
+					</div>
+					<input type="button" value="Search" id="SearchBtn" />
+				</form>
+				
+				<div class="OutPutBox">
+				
+					<div class="OpView">
+					
+					
+					
+					</div>
+				
+				</div>
+				
+			
+			</div>
+			
+		</div>	
+	
+	</div>	
+	
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="js/flight.js"></script>
+</body>
+</html>

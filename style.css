@@ -1,0 +1,34 @@
+@media only screen and (max-width:1230px){	
+
+.FlightSearch .TabSection #FlightForm .passengers{display: block; margin: 50px 50px;}
+
+}
+
+body{margin:0;}
+.TabSection #tabs li{list-style-type:none;display:inline-block;align-items: center;  width: 350px;    background: #fff;  padding:10px;margin-right:-45px;border-radius:45px;cursor:pointer;}
+.TabSection ul{margin-top:0;    }
+.TabSection .TabData{    display: flex;    justify-content: center;}
+.TabSection #tabs li.active{background: #2276e3;color:#fff;font-weight:bold;position:relative; animation: slide-down 0.2s ease-in;}
+.passengers,.Adult,.Children{display:inline-block;margin-right:25px;}
+.passengers{margin-right:0;}
+#FlightForm{margin-top:80px;}
+#FlightForm .PassengerType input{outline: none;    -webkit-appearance: none;    text-align: center;    width: 30px;    border: none;margin-right:0;}
+.TabSection{text-align:center;background:url('banner.jpg');height:700px;padding-top:45px;}
+#FlightForm input{padding:10px;margin-right:25px;border:none;}
+.OutPutBox{    text-align: center;    margin: 0 auto;    width: 50%;    }
+.FlData{background: #fff;    opacity: 0.7;margin-top:45px;padding:11px;}
+.Price{    margin-right: 50px;    display: inline-block;    float: right;font-size:45px;    font-size: 22px;    font-weight: bold;}
+.Price p{    background: #f37638;    padding: 10px;    border-radius: 10px;    color: #fff;    font-size: 17px;cursor:pointer;}
+.CodeRtrn{display: inline-block;    margin-right: 50px;    font-size: 18px;}
+.ArriveDepart{display: inline-block;    margin-right: 50px;    font-size: 18px;}
+.PassengerType .Inc{    background: #f37638;    padding: 8px 5px 10px 5px;        border-top-left-radius: 6px;    border-bottom-left-radius: 6px;    opacity: 1;    color: #fff;    font-weight: bold;cursor:pointer;}
+.PassengerType .Dec{    background: #f37638;    padding: 8px 5px 10px 5px;        border-top-right-radius: 6px;    border-bottom-right-radius: 6px;    opacity: 1;    color: #fff;    font-weight: bold;cursor:pointer;}
+#FlightForm input#SearchBtn{    -webkit-appearance: none;    box-shadow: none;    border: none;    background: #f37638;        color: #fff;    font-weight: bold;    border-radius: 50px;        padding-left: 35px;    padding-right: 35px;cursor:pointer;}
+
+@keyframes slide-down {
+    0% { opacity: 0; transform: translateX(10%); }
+	}
+    100% { opacity: 1; transform: translateX(0); }
+}
+
+
